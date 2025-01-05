@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevClub - Previsão do Tempo</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- MODAL -->
+    <div class="big-box">
+      <input
+        class="city-input"
+        type="text"
+        placeholder="Digite o nome da cidade"
+      />
+      <button class="search-button">
+        <img src="./img/find.svg" alt="Busca" class="search-img" />
+      </button>
+
+      <div class="average-box">
+        <h2 class="city">Nome da Cidade</h2>
+        <p class="temperature">Temperatura em °C</p>
+
+        <div class="minor-box">
+          <img
+            class="forecast-img"
+            src="./img/nuvem.png"
+            alt="icone info tempo"
+          />
+          <p class="forecast-text">Estado do tempo</p>
+        </div>
+
+        <p class="humidity">Informação de Umidade</p>
+      </div>
+    </div>
+    <!-- FIM MODAL -->
+
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+    <!-- FIM JAVASCRIPT -->
+  </body>
+</html>
