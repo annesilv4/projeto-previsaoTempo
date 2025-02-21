@@ -80,3 +80,16 @@ body {
     color: #ffffff;
     margin-top: 20px;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 800px) {
+    & body {
+        & .big-box {
+            width: 90%;
+
+            & .city-input {
+                font-size: 15px;
+            }
+        }
+    }
+}
